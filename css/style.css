@@ -1,0 +1,133 @@
+*{
+    background-color:azure;
+    padding: 0px;
+    margin:0px;
+}
+#head{
+    width: auto;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+}
+#content{
+    display: flex;
+    background-color: azure;
+}
+.navigation{
+    width: 20%;
+    height: 643px;
+    border :1px solid black;
+    box-shadow: 2px 1px 2px red;
+  
+}
+.navigation ul{
+margin:auto;
+text-align: center;
+padding: 5px, 10px;
+margin: 5px;
+list-style: none;
+}
+.navigation li {
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 2px orange;
+    border-radius: 2px;
+}
+.header{
+    text-align: center;
+    height: 99%;
+}
+.header li a {
+            display: block;
+            color: black;
+            text-decoration: none;
+            transition: all .3s ease-in-out .1s;
+            text-shadow: rgb(235, 159, 159) ;  
+}
+.header li a:hover, li span:hover{
+    color: black;
+    /* background-color: black; */
+    text-decoration:underline;
+    /* border: 1px dashed white; */  
+}
+.sapn{
+    width: 50px;
+}
+.dropdownbtn ul {
+    width: auto;
+    position: absolute;
+}
+.dropdown-content {
+    flex-direction: column;
+}
+#dropdown-hide {
+    display: none;
+}
+.header ul li:hover #dropdown-hide {
+    display: block;
+}
+#dashboard{
+    padding: 5px;
+    width: 80%;
+    background-color: azure;
+    height: 636px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#body{
+    padding: 5px;
+    width: 80%;
+    background-color: azure;
+    height: 636px;
+}
+.box{
+    width: 35%;
+    height: 260px;
+    padding: 30px 74px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle{
+    background-color: beige;
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 70px 40px;
+    border: 3px solid green;
+    text-align: center;
+    font-size: xxx-large;
+}
+/* view content */
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;}
+form{
+padding-left: 15px;
+}
+h1{
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+padding: 5px;
+margin: 5px;
+}
+#message{
+    color:red;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.text-center{
+    text-align: center;
+}
+.foot{
+    margin-top: 45%;
+}

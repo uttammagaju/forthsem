@@ -1,0 +1,35 @@
+/* Login page */
+body{
+    background-image: url(../image/background.jpg);
+    width:auto;
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.login_dash {
+    color: white;
+    padding: 50px 31px;
+    width: 240px;
+    height: AUTO;
+    margin: 150px 550px;
+    text-align: justify;
+    font-size: large;
+    background-color: rgb(255, 200, 97);
+    box-shadow: 5px 5px 28px orange;
+    border-radius: 70px;
+    opacity: 0.8;
+}
+.login_dash input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.message{
+    background-color: rgb(255, 200, 97);
+    color: red;
+}
+.button{
+    background-color: rgb(255, 200, 97);
+    margin: 0px 88px;
+}
